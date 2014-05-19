@@ -31,8 +31,8 @@ require 'test/unit'
 class Calculator
   attr_reader :total
 
-  def add(arg1 = 0, arg2 = 0)
-    @total = arg1 + arg2
+  def add(*args)
+    @total = args.inject(0) { |sum, arg| sum + arg }
   end
 end
 
@@ -53,5 +53,11 @@ class CalculatorTest < Test::Unit::TestCase
     calculator = Calculator.new
     calculator.add(1, 999)
     assert_equal(1000, calculator.total)
+  end
+
+  def test_add_fourteen_arguments
+    calculator = Calculator.new
+    calculator.add(1,1,1,1,1,1,1,1,1,1,1,1,1,1)
+    assert_equal(14, calculator.total)
   end
 end

@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b129bcbb-ab93-49c6-8d6c-8ba76f3492ea" time="1400471448399" ignored="false" />
     <file path="/README.md" changelist="b129bcbb-ab93-49c6-8d6c-8ba76f3492ea" time="1400470658321" ignored="false" />
-    <file path="/calculator.rb" changelist="b129bcbb-ab93-49c6-8d6c-8ba76f3492ea" time="1400473036474" ignored="false" />
+    <file path="/calculator.rb" changelist="b129bcbb-ab93-49c6-8d6c-8ba76f3492ea" time="1400475446920" ignored="false" />
     <file path="/a.dummy" changelist="b129bcbb-ab93-49c6-8d6c-8ba76f3492ea" time="1400472369916" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +16,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/rubytest@calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1400473779158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rubytest@calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1400475457829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -33,7 +33,7 @@
       <file leaf-file-name="calculator.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calculator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="18" selection-start="1738" selection-end="1738" vertical-scroll-proportion="0.18735892">
+            <state line="38" column="22" selection-start="1757" selection-end="1757" vertical-scroll-proportion="0.018058691">
               <folding />
             </state>
           </provider>
@@ -382,7 +382,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calculator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="18" selection-start="1738" selection-end="1738" vertical-scroll-proportion="0.18735892">
+        <state line="38" column="22" selection-start="1757" selection-end="1757" vertical-scroll-proportion="0.018058691">
           <folding />
         </state>
       </provider>
