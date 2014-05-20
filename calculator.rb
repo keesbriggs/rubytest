@@ -115,4 +115,11 @@ class CalculatorTest < Test::Unit::TestCase
       calculator.add(-1)
     end
   end
+
+  def test_add_arguments_with_negative_number_input_throws_error_with_kooky_delimiter
+    assert_raise(StandardError) do
+      calculator = Calculator.new
+      calculator.add(''';\n1;-2''')
+    end
+  end
 end

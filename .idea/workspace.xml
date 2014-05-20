@@ -3,13 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b129bcbb-ab93-49c6-8d6c-8ba76f3492ea" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculator.rb" afterPath="$PROJECT_DIR$/calculator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rubytest.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b129bcbb-ab93-49c6-8d6c-8ba76f3492ea" time="1400562296850" ignored="false" />
     <file path="/README.md" changelist="b129bcbb-ab93-49c6-8d6c-8ba76f3492ea" time="1400470658321" ignored="false" />
-    <file path="/calculator.rb" changelist="b129bcbb-ab93-49c6-8d6c-8ba76f3492ea" time="1400565523426" ignored="false" />
+    <file path="/calculator.rb" changelist="b129bcbb-ab93-49c6-8d6c-8ba76f3492ea" time="1400566024277" ignored="false" />
     <file path="/a.dummy" changelist="b129bcbb-ab93-49c6-8d6c-8ba76f3492ea" time="1400472369916" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +18,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/rubytest@calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1400565527167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rubytest@calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1400566034097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -36,7 +35,7 @@
       <file leaf-file-name="calculator.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calculator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="35" selection-start="2358" selection-end="2358" vertical-scroll-proportion="1.4195805">
+            <state line="116" column="28" selection-start="3791" selection-end="3791" vertical-scroll-proportion="0.52797204">
               <folding />
             </state>
           </provider>
@@ -399,7 +398,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calculator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="35" selection-start="2358" selection-end="2358" vertical-scroll-proportion="1.4195805">
+        <state line="116" column="28" selection-start="3791" selection-end="3791" vertical-scroll-proportion="0.52797204">
           <folding />
         </state>
       </provider>
