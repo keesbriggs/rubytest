@@ -33,7 +33,13 @@ class Calculator
 
   def add(*args)
     # accept ```1\n2,3``` as input, per instructions
-    args = args.first.split(/\\n|,/).map(&:to_i) if args.first.instance_of? String
+    # accept ```//;\n1;2``` as input defining args and delimiter
+    delimiter = ','
+    if args.first.class == String
+      very_first_arg = args.first.split(/\\n/).first
+      delimiter = very_first_arg if very_first_arg !~ /\A[-+]?[0-9]*\.?[0-9]+\Z/ # that is, if it is NOT a number...
+    end
+    args = args.first.split(/\\n|#{delimiter}/).map(&:to_i) if args.first.instance_of? String
     @total = args.inject(0) { |sum, arg| sum + arg }
   end
 end
@@ -73,5 +79,11 @@ class CalculatorTest < Test::Unit::TestCase
     calculator = Calculator.new
     calculator.add('''1\n1,11''')
     assert_equal(13, calculator.total)
+  end
+
+  def test_add_arguments_with_custom_delimiter_on_preceding_line
+    calculator = Calculator.new
+    calculator.add(''';\n1;2''')
+    assert_equal(3, calculator.total)
   end
 end
