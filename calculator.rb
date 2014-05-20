@@ -32,6 +32,8 @@ class Calculator
   attr_reader :total
 
   def add(*args)
+    # accept ```1\n2,3``` as input, per instructions
+    args = args.first.scan(/\w/).map(&:to_i) if args.first.instance_of? String
     @total = args.inject(0) { |sum, arg| sum + arg }
   end
 end
@@ -59,5 +61,11 @@ class CalculatorTest < Test::Unit::TestCase
     calculator = Calculator.new
     calculator.add(1,1,1,1,1,1,1,1,1,1,1,1,1,1)
     assert_equal(14, calculator.total)
+  end
+
+  def test_add_arguments_delimited_by_newline_or_comma
+    calculator = Calculator.new
+    calculator.add('1\n1,1')
+    assert_equal(3, calculator.total)
   end
 end
