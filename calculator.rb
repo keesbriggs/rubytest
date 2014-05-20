@@ -34,13 +34,35 @@ class Calculator
   def add(*args)
     # accept ```1\n2,3``` as input, per instructions
     # accept ```//;\n1;2``` as input defining args and delimiter
+
     delimiter = ','
+    negative_args = []
+
     if args.first.class == String
       very_first_arg = args.first.split(/\\n/).first
-      delimiter = very_first_arg if very_first_arg !~ /\A[-+]?[0-9]*\.?[0-9]+\Z/ # that is, if it is NOT a number...
+      delimiter = very_first_arg if is_not_numeric? very_first_arg
+      args = args.first.split(/\\n|#{delimiter}/).map(&:to_i)
     end
-    args = args.first.split(/\\n|#{delimiter}/).map(&:to_i) if args.first.instance_of? String
-    @total = args.inject(0) { |sum, arg| sum + arg }
+
+    @total = args.inject(0) do |sum, arg|
+      if is_negative? arg
+        negative_args << arg
+        next
+      end
+      sum + arg
+    end
+    if negative_args.any?
+      raise StandardError, "The following negative numbers are not allowed as input: #{negative_args.inspect}"
+    end
+    @total
+  end
+
+  def is_not_numeric? input
+    input !~ /\A[-+]?[0-9]*\.?[0-9]+\Z/
+  end
+
+  def is_negative? input
+    input.to_s =~ /^-/
   end
 end
 
@@ -85,5 +107,12 @@ class CalculatorTest < Test::Unit::TestCase
     calculator = Calculator.new
     calculator.add(''';\n1;2''')
     assert_equal(3, calculator.total)
+  end
+
+  def test_add_arguments_with_negative_number_input_throws_error
+    assert_raise(StandardError) do
+      calculator = Calculator.new
+      calculator.add(-1)
+    end
   end
 end

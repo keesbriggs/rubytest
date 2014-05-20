@@ -9,7 +9,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b129bcbb-ab93-49c6-8d6c-8ba76f3492ea" time="1400562296850" ignored="false" />
     <file path="/README.md" changelist="b129bcbb-ab93-49c6-8d6c-8ba76f3492ea" time="1400470658321" ignored="false" />
-    <file path="/calculator.rb" changelist="b129bcbb-ab93-49c6-8d6c-8ba76f3492ea" time="1400563626415" ignored="false" />
+    <file path="/calculator.rb" changelist="b129bcbb-ab93-49c6-8d6c-8ba76f3492ea" time="1400565523426" ignored="false" />
     <file path="/a.dummy" changelist="b129bcbb-ab93-49c6-8d6c-8ba76f3492ea" time="1400472369916" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +19,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/rubytest@calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1400563798864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rubytest@calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1400565527167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -36,7 +36,7 @@
       <file leaf-file-name="calculator.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calculator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="29" selection-start="2208" selection-end="2208" vertical-scroll-proportion="0.6052632">
+            <state line="56" column="35" selection-start="2358" selection-end="2358" vertical-scroll-proportion="1.4195805">
               <folding />
             </state>
           </provider>
@@ -288,9 +288,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="820" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25035867" sideWeight="0.4510345" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25035867" sideWeight="0.4510345" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -299,7 +299,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5489655" sideWeight="0.9992609" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5489655" sideWeight="0.9992609" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -399,7 +399,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calculator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="29" selection-start="2208" selection-end="2208" vertical-scroll-proportion="0.6052632">
+        <state line="56" column="35" selection-start="2358" selection-end="2358" vertical-scroll-proportion="1.4195805">
           <folding />
         </state>
       </provider>
